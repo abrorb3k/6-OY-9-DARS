@@ -42,7 +42,7 @@
       "Search for a country…": "Поиск страны…",
       "Germany": "Германия",
       "Population: 81,770,900": "Население: 81 770 900",
-      "Region: Europe": "Регион: Европа",
+      "Region": "Европа",
       "Capital: Berlin": "Столица: Берлин",
       "United States of America": "Соединенные Штаты Америки",
       "Population: 323,947,000": "Население: 323 947 000",
@@ -73,7 +73,7 @@
   },
   "uz": {
     "translation": {
-      "Where in the world?": "Dunyoda qayerda?",
+      "Where in the world?": "Dunyoda qayerdasiz?",
       "Dark mode": "Qorong'u rejim",
       "Search for a country…": "Davlat qidiring…",
       "Germany": "Germaniya",

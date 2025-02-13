@@ -12,12 +12,13 @@ import albania from "../assets/albania.svg";
 import algeria from "../assets/algeria.svg";
 
 function Card1() {
-  const [languages] = useState("en");
+  const [languages, setLanguage] = useState("en");
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
     i18n.changeLanguage(languages);
   }, [languages, i18n]);
+
   return (
     <div className="cards">
       <div className="cardchild">
@@ -25,13 +26,13 @@ function Card1() {
         <h3>{t("Germany")}</h3>
         <div>
           <h5>
-            {t(" Population: ")} <span>{t("81,770,900")}</span>
+            {t("Population ")} <span> {t("81,770,900")}</span>
           </h5>
           <h5>
-            {t(" Region:")} <span>{t("Europe ")}</span>
+            {t(" Region")} <span>{t("Europe ")}</span>
           </h5>
           <h5>
-            {t(" Capital: ")} <span>{t(" Berlin")}</span>
+            {t("Capital ")} <span>{t(" Berlin")}</span>
           </h5>
         </div>
       </div>
@@ -43,7 +44,7 @@ function Card1() {
             {t("Population: ")} <span>{t("323,947,000")}</span>
           </h5>
           <h5>
-            {t(" Region:")} <span>{t("Americas")}</span>
+            {t(" Region:")} <span>{t("Region ")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Washington.D.C.")}</span>
@@ -58,7 +59,7 @@ function Card1() {
             {t("Population: ")} <span>{t("206,135,893")}</span>
           </h5>
           <h5>
-            {t(" Region:")} <span>{t("Americas")}</span>
+            {t("Region:")} <span>{t("Americas")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Brasilia")}</span>
@@ -73,7 +74,7 @@ function Card1() {
             {t("Population: ")} <span>{t("334,300")}</span>
           </h5>
           <h5>
-            {t(" Region:")} <span>{t("Europe")}</span>
+            {t("Region:")} <span>{t("Europe")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Reykjavik")}</span>
@@ -88,7 +89,7 @@ function Card1() {
             {t("Population: ")} <span>{t("27,657,145")}</span>
           </h5>
           <h5>
-            {t(" Region: ")} <span>{t("Asia")}</span>
+            {t("Region: ")} <span>{t("Asia")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Kabul")}</span>
@@ -103,7 +104,7 @@ function Card1() {
             {t("Population: ")} <span>{t("28,875")}</span>
           </h5>
           <h5>
-            {t(" Region: ")} <span>{t("Europe")}</span>
+            {t("Region: ")} <span>{t("Europe")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Marienhamn")}</span>
@@ -118,7 +119,7 @@ function Card1() {
             {t("Population: ")} <span>{t("2,886,026")}</span>
           </h5>
           <h5>
-            {t(" Region: ")} <span>{t("Europe")}</span>
+            {t("Region: ")} <span>{t("Europe")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Tirana")}</span>
@@ -133,7 +134,7 @@ function Card1() {
             {t("Population: ")} <span>{t("40,400,000")}</span>
           </h5>
           <h5>
-            {t(" Region:")} <span>{t("Africa")}</span>
+            {t("Region:")} <span>{t("Africa")}</span>
           </h5>
           <h5>
             {t("Capital: ")} <span>{t("Algiers")}</span>

@@ -1,33 +1,3 @@
-// import React, { useContext, useState, useEffect } from "react";
-// import { ThemeContext } from "../App";
-// import { useTranslation } from "react-i18next";
-// // import { i18n } from "react-i18next";
-// import "../App.css";
-
-// function Header() {
-//   const [languages] = useState("en");
-//   const { t, i18n } = useTranslation();
-//   const { theme, setTheme } = useContext(ThemeContext);
-
-//   useEffect(() => {
-//     i18n.changeLanguage(languages)
-//   }, [languages, i18n]);
-//   return (
-//     <div className="headers">
-//       <a href="#" className="logo">
-//         <h1>{t("Where in the world?")}</h1>
-//       </a>
-//       <p
-//         className="themebtn"
-//         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-//       >
-//         {theme === "light" ? "Dark mode" : "Light mode"}
-//       </p>
-//     </div>
-//   );
-// }
-
-// export default Header;
 import React, { useContext, useState, useEffect } from "react";
 import { ThemeContext } from "../App";
 import { useTranslation } from "react-i18next";
