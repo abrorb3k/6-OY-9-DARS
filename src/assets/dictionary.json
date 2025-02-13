@@ -1,0 +1,27 @@
+
+{
+  "en": {
+    "title": "Where in the world?",
+    "search": "Search for a country...",
+    "population": "Population",
+    "region": "Region",
+    "capital": "Capital",
+    "theme": "Toggle Theme"
+  },
+  "uz": {
+    "title": "Dunyoning qaysi burchagida?",
+    "search": "Mamlakat qidiring...",
+    "population": "Aholi",
+    "region": "Mintaqa",
+    "capital": "Poytaxt",
+    "theme": "Mavzuni o'zgartirish"
+  },
+  "ru": {
+    "title": "Где в мире?",
+    "search": "Поиск страны...",
+    "population": "Население",
+    "region": "Регион",
+    "capital": "Столица",
+    "theme": "Переключить тему"
+  }
+}
